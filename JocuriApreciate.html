@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Jocuri video</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-win8.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>JOCURILE<br>VIDEO</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="Homepage_JocuriVideo.html " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Acasă</a> 
+    <a href="JocuriApreciate.html#TOW" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">The Outer Worlds</a> 
+    <a href="JocuriApreciate.html#ACO" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Assassin's Creed</a> 
+    <a href="JocuriApreciate.html#Witcher" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">The Witcher 3</a> 
+    <a href="JocuriApreciate.html#Minecraft" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Minecraft</a> 
+    <a href="JocuriApreciate.html#TESV" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Skyrim</a>
+    <a href="JocuriApreciate.html#COD" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Call of Duty</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-blue w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Jocurile video</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+          
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="titlu">
+    <h1 class="w3-jumbo"><b>Jocuri îndrăgigte de către critici:</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+      <div class="w3-container" id="TOW" style="margin-top:75px">
+    <h2 class="w3-xxxlarge w3-text-red"><b>1. The Outer Worlds</b></h2>
+    <p>The Outer Worlds este „cireașa de pe tort” a RPG-urilor. Obsidian, un dezvoltator care a a contribuit la secvențe atât în ​​Star Wars de la BioWare: Cavalerii Vechii Republici, cât și în Fallout 3, produs de Bethesda, a îmbinat aceste două arome distincte și au un gust deosebit. Nu aș numi această aventură tematică de frontieră spațială cel mai bun din ambele, dar este o abordare creativă și bine făcută, care este atât familiară, cât și nouă, totodată. În unele moduri, este frumos că povestea nu pune o față consiliului corporatist rău care stăpânește această colonie izolată până la aproximativ două treimi din drum prin campania de aproximativ 30 de ore - și chiar și atunci când fac asta nu sunt atât de amenințători. Pe de o parte, Lumile exterioare se simt fără scop pentru o lungă perioadă de timp, dar, pe de altă parte, asta înseamnă căutarea de a ajuta un om de știință nebun să reînvie colegii tăi coloniști de la un fel de hibernare de decolorare pe fundal, în timp ce rătăcești ocazional în mijlocul conflictelor locale și alegi câștigători și învinși. Uneori, aruncând un comutator pentru a-ți declara preferința pentru câștigători, iar alteori pur și simplu împușcând învinșii. Prima mare căutare are paralele majore cu semnătura alegerii Megaton a lui Fallout 3, deși, deși mi-a plăcut să aud despre diferențele filozofice dintre diverse facțiuni, nu există multe surprize mari sau momente „wow” similare cu Megaton în modul în care au loc misiunile. Lumile exterioare se simt tot mai mici ca acestea, așa că funcționează suficient de bine.
+    </p>
+
+<!-- Slideshow container -->
+<div id="slideshow1" class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="tow1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="tow2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="tow3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="tow4.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1,slideshow1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, slideshow1)">&#10095;</a>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1, slideshow1)"></span> 
+  <span class="dot" onclick="currentSlide(2, slideshow1)"></span> 
+  <span class="dot" onclick="currentSlide(3, slideshow1)"></span>
+  <span class="dot" onclick="currentSlide(4, slideshow1)"></span> 
+</div>
+</div>
+<br>
+
+
+      <div class="w3-container" id="ACO" style="margin-top:75px">
+    <h2 class="w3-xxxlarge w3-text-red"><b>2. Assassin's Creed: Origins</b></h2>
+    <p>Assassin's Creed Origins reprezintă o interpretare întunecată, multilaterală și profundă a uneia dintre cele mai atrăgătoare locații ale seriei de până acum: Egiptul antic. Jucând astfel ca Bayek din Siwa, care este simultan compătimitor, îndrăzneț și condus de răzbunare, ești cuprins de o poveste întortocheată de faraoni și lideri corupți, despre dragostea câștigată și mai apoi pierdută și despre situațiile clasei inferioare într-o perioadă în care erau de obicei puși să muncească din greu până la moarte și nimănui nu îi păsa. Este o călătorie încordată care îți provoacă conceptele de corect și de greșit, ceea ce te face să iei în considerare moralitatea celor pe care îi ucizi în acest proces - și, într-o schimbare dramatică pentru serie, face parte dintr-un joc complet de rol (RPG - roleplaying game. Aceasta este, de asemenea, cea mai mare și mai conectată hartă pe care am văzut-o într-un joc Assassin's Creed. Chiar și regiunile deșertice aparent goale, care au propriile frumuseți, precum priveliștile uluitoare din punctul cel mai înalt, cu o distanță de tragere impresionantă, indiferent dacă joci pe PC, Xbox One X sau PlayStation 4. Există mai multe orașe, de asemenea, fiecare cu propria lor cultură unică cu diferiți zei, politică, relații de rasă și prejudecăți de descoperit. Sunt distincte în arhitectură și mediu, iar acest lucru face ca angajamentul în timp să fie unul care să fie constant variat și surprinzător.
+    </p>
+  </div>
+
+<!-- Slideshow container -->
+<div id="slideshow2" class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="4.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="ac2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="ac3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="ac4.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1,slideshow2)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, slideshow2)">&#10095;</a>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1, slideshow2)"></span> 
+  <span class="dot" onclick="currentSlide(2, slideshow2)"></span> 
+  <span class="dot" onclick="currentSlide(3, slideshow2)"></span>
+  <span class="dot" onclick="currentSlide(4, slideshow2)"></span> 
+</div>
+</div>
+<br>
+
+        <div class="w3-container" id="Witcher" style="margin-top:75px">
+    <h2 class="w3-xxxlarge w3-text-red"><b>3. The Witcher 3</b></h2>
+    <p>Witcher 3 este la fel de dens și de adânc ca celelalte două jocuri din serie în ceea ce privește mecanica RPG, iar mediul deschis-copleșitor de masiv, a făcut dintr-o dată această adâncime mai intimidantă, iar pe termen lung, mai plină de satisfacții. Este dificil să exprimăm cât de uriașă și deschisă este această lume: verdele, câmpurile rulante, punctate liberal, cu frunziuni înverșunate de orice formă și dimensiune, umplu spațiul dintre orașele strânse conectate, ramshackle, unde oamenii se străduiesc să răzbătească. Un ciclu complet de zi / noapte și vremea dinamică îl îmbină, cimentând peisajul The Witcher 3 ca una dintre cele mai autentice lumi deschise pe care le-am văzut vreodată. Un minimap util vă indică unde doriți să mergeți, ceea ce ar putea părea o cârcă, dar sincer, fără el, aș fi fost pierdut fără speranță. Că o lume de această dimensiune încă se simte atât de intenționată și plină de lucruri de făcut este destul de realizare.
+    </p>
+  </div>
+
+  <!-- Slideshow container -->
+<div id="slideshow3" class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="tw1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="tw2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="tw3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="tw4.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1,slideshow3)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, slideshow3)">&#10095;</a>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1, slideshow3)"></span> 
+  <span class="dot" onclick="currentSlide(2, slideshow3)"></span> 
+  <span class="dot" onclick="currentSlide(3, slideshow3)"></span>
+  <span class="dot" onclick="currentSlide(4, slideshow3)"></span> 
+</div>
+</div>
+<br>
+
+     <div class="w3-container" id="Minecraft" style="margin-top:75px">
+    <h2 class="w3-xxxlarge w3-text-red"><b>4. Minecraft</b></h2>
+    <p>Nici un alt joc video nu mi-a dezlănțuit creativitatea ca Minecraft. Am petrecut nenumărate ore împărțind blocuri, adunând materialele necesare pentru a completa următoarea capodoperă care altfel ar ocupa doar ochii minții mele. De asemenea, mi-am petrecut la fel de multe ore explorând, spelunking și trântindu-mi drum prin monștri cu bravado. Personajul meu - întreaga mea lume Minecraft - evoluează constant în ceea ce vreau să fie. Îmi spun propriile povești, îmi scriu propriul destin și îmi aduc fanteziile în viață câte o cărămidă la un moment dat. Minecraft se remarcă nu doar pentru modul în care mă inspiră creativ, dar și datorită esteticii sale unice. Uite, știu că imaginile arată datate și cam prostești, dar puține jocuri au imagini atât de atrăgătoare și fermecătoare. Știu că nu sunt singurul care se simte în acest fel, sau altfel grafica lui Minecraft nu ar fi atât de iconică. Ați putea lua o textură din Gears of War, Halo sau Uncharted, să o puneți pe o cămașă și să-i identificați pe jucători? Mă îndoiesc de asta. Aspectul funcționează doar, oferind jocului un aspect super unic, memorabil și creează un pic de nostalgie pentru jocurile din epoca de 8 biți.
+    </p>
+  </div>
+
+<!-- Slideshow container -->
+<div id="slideshow4" class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="mc1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="mc2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="mc3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="mc4.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1,slideshow4)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, slideshow4)">&#10095;</a>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1, slideshow4)"></span> 
+  <span class="dot" onclick="currentSlide(2, slideshow4)"></span> 
+  <span class="dot" onclick="currentSlide(3, slideshow4)"></span>
+  <span class="dot" onclick="currentSlide(4, slideshow4)"></span> 
+</div>
+</div>
+<br>
+
+    <div class="w3-container" id="TESV" style="margin-top:75px">
+    <h2 class="w3-xxxlarge w3-text-red"><b>5. The Elder Scrolls V: Skyrim</b></h2>
+    <p>The Elder Scrolls V: Skyrim este un joc foarte, foarte mare, poate cel mai mare din punct de vedere al metrajului pătrat efectiv pe care îl acoperă. I s-a oferit o prezență de durată. Astăzi, Skyrim este disponibil nu numai pentru platformele sale originale de lansare (PC, PlayStation 3 și Xbox 360), ci și pentru casca Xbox One, PlayStation 4, Nintendo Switch și VR. Deși jocul a fost lansat de atunci pe multe platforme noi, nucleul său rămâne același, negi și toate. Unele elemente ale jocului simt vârsta lor, dar Skyrim este un clasic modern, care merită să-ți faci timpul dacă ai ratat-o.Personajul tău devine mai bun la orice faci: trăgând un arc, furișând oamenii, aruncând vrăji vindecătoare, amestecând poțiuni, balansând un topor. Întotdeauna a existat un element al acestui sistem bazat pe practică în jocurile Elder Scrolls, dar în Skyrim este fără restricții - nu trebuie să decizi pe ce te vei concentra când creezi personajul tău, poți doar să-l lași să se dezvolte organic. Numai asta te-ai simți puțin prea ușor, dar te vei ridica la nivel. Când se întâmplă asta, obțineți un punct avantajos: ceva pe care îl puteți cheltui pentru o îmbunătățire puternică pentru o abilitate care vă place în mod special. În fiecare oră, luați o decizie majoră despre abilitățile personajului vostru. Sunt dramatice. Primul punct pe care îl puneți în magia distrugerii vă permite să curgeți jeturi de flacără din mâini de două ori mai mult decât înainte. Pe măsură ce continui să investești într-o singură abilitate, poți obține mai multe modificări interesante: acum am un perk cu tir cu arcul care încetinește timpul când îmi vizez arcul și unul pentru abilitatea Sneak care îmi permite să fac un roll forward sigur. Din nou, libertatea este amețitoare, iar gama de eroi pe care i-ai putea construi este vastă.
+    </p>
+  </div>
+
+<!-- Slideshow container -->
+<div id="slideshow5" class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="skyrim1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="skyrim2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="skyrim3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="skyrim4.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1,slideshow5)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, slideshow5)">&#10095;</a>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1, slideshow5)"></span> 
+  <span class="dot" onclick="currentSlide(2, slideshow5)"></span> 
+  <span class="dot" onclick="currentSlide(3, slideshow5)"></span>
+  <span class="dot" onclick="currentSlide(4, slideshow5)"></span> 
+</div>
+</div>
+<br>
+
+    <div class="w3-container" id="COD" style="margin-top:75px">
+    <h2 class="w3-xxxlarge w3-text-red"><b>6. Call of Duty: Black Ops III</b></h2>
+    <p>Call of Duty: Black Ops 3 este încărcat cu tensiune. Nu vreau să spun suspans, acțiune sau dramă - deși există un pic din asta - ci tensiunea de a fi tras în două direcții simultan. Este tensiunea unei serii care continuă să cheltuiască milioane de dolari încercând să fie mai mare și mai bună, dar dă naștere unei versiuni foarte recunoscute în sine, în fiecare toamnă, ca un condiment de dovleac latte phoenix. Ca de obicei, Black Ops 3 dorește cu disperare să fie un film de acțiune blockbuster de la Hollywood și constată că jucătorii, cu insistența lor frustrantă de a „face alegeri” și de a se „distra”, continuă să intre în drum. Call of Duty nu este făcută de dezvoltatorii rookie, totuși, hai să stabilim câteva date: Acesta este un joc superb. Dispune de seturi sălbatice, actori buni și arme care se simt excelent. Acestea sunt lucrurile care fac din Call of Duty gigantul care este. Blops 3 are o campanie ambițioasă cu un singur jucător, care are câteva șanse sănătoase, pe care aproape că reușește să le aterizeze și este ușor de recomandat ca o experiență puternică de film de acțiune mută. Într-o bună zi, Call of Duty ar putea fi mai mult decât un distractiv plictisitor, dar nu este chiar în acea zi.
+    </p>
+  </div>
+
+<!-- Slideshow container -->
+<div id="slideshow6" class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="cod1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="cod2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="cod3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="cod4.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1,slideshow6)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, slideshow6)">&#10095;</a>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1, slideshow6)"></span> 
+  <span class="dot" onclick="currentSlide(2, slideshow6)"></span> 
+  <span class="dot" onclick="currentSlide(3, slideshow6)"></span>
+  <span class="dot" onclick="currentSlide(4, slideshow6)"></span> 
+</div>
+</div>
+<br>
+
+<script>
+var slideshow1 = document.getElementById("slideshow1");
+slideshow1.currentSlideIndex = 1;
+showSlides(slideshow1.currentSlideIndex, slideshow1);
+
+var slideshow2 = document.getElementById("slideshow2");
+slideshow2.currentSlideIndex = 1;
+showSlides(slideshow2.currentSlideIndex, slideshow2);
+
+var slideshow3 = document.getElementById("slideshow3");
+slideshow3.currentSlideIndex = 1;
+showSlides(slideshow3.currentSlideIndex, slideshow3);
+
+var slideshow4 = document.getElementById("slideshow4");
+slideshow4.currentSlideIndex = 1;
+showSlides(slideshow4.currentSlideIndex, slideshow4);
+
+var slideshow5 = document.getElementById("slideshow5");
+slideshow5.currentSlideIndex = 1;
+showSlides(slideshow5.currentSlideIndex, slideshow5);
+
+var slideshow6 = document.getElementById("slideshow6");
+slideshow6.currentSlideIndex = 1;
+showSlides(slideshow6.currentSlideIndex, slideshow6);
+
+function plusSlides(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex += n, slideshow);
+}
+
+function currentSlide(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex = n, slideshow);
+}
+
+function showSlides(n, slideshow) {
+  
+
+
+  var i;
+  var slides = slideshow.getElementsByClassName("mySlides");
+  var dots = slideshow.getElementsByClassName("dot");
+  if (n > slides.length) {slideshow.currentSlideIndex = 1}    
+  if (n < 1) {slideshow.currentSlideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideshow.currentSlideIndex-1].style.display = "block";  
+  dots[slideshow.currentSlideIndex-1].className += " active";
+}
+</script>
+</body>
+</html> 

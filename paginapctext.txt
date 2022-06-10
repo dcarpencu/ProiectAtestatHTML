@@ -1,0 +1,22 @@
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Personal Computer</h3>
+  <p class="w3-center"><em>"Bun în toate"</em></p>
+  <p> Termenul computer personal numit și calculator personal (în engleză: personal computer sau PC) desemnează un anumit gen de computer, relativ mic ca dimensiuni și performanță, pentru uz personal. Un computer pentru jocuri, cunoscut și sub denumirea de PC-ul de jocuri sau platforma de jocuri, este un computer personal conceput pentru a juca jocuri video care necesită o cantitate mare de putere de calcul. Un computer modern pentru jocuri este comparabil cu un computer mainstream, cu adăugarea de componente orientate spre performanță, cum ar fi placi video performante și unități de procesare centrale cu număr mare de nuclee, care sacrifică eficiența energetică pentru performanțele brute. Calculatoarele de jocuri sunt adesea asociate cu calculatoare entuziaste din cauza unei suprapuneri a intereselor; Cu toate acestea, în timp ce un computer pentru jocuri este construit pentru a obține performanțe pentru jocul propriu-zis, PC-urile entuziaști sunt construite pentru a maximiza performanța, folosind jocurile ca un obiect de referință pentru aplicații reale. În timp ce PC-urile entuziaști sunt definite de ultimă generație, PC-urile de jocuri pot fi împărțite pe piețe low-end, mid-range și high-end. Producătorii de carduri video obțin cea mai mare parte a veniturilor lor din ofertele low-end și mid-range. PC-urile de jocuri sunt deseori potrivite și pentru alte sarcini intense, cum ar fi editarea video.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b>De ce este cel mai versatil?</b></p><br>
+      <img src="gpc2.jpg" ca lass="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Până în 2012, a devenit din ce în ce mai popular pentru jucători să-și construiască personalizat propriul PC, permițând un control bugetar mai ridicat și o actualizare mai ușoară. Mai des, este posibil să maximizezi performanța pentru cea mai bună valoare atunci când construiești un computer pentru jocuri de noroc. Există mai multe componente care trebuie luate în considerare la construirea unui computer pentru jocuri, care includ procesoare, memorie, o placă de bază, plăci video, unități de stare solidă, surse de alimentare și carcase.</p>
+    </div>
+  </div>
+  <div class="w3-light-grey">
+  </div>
+  <div class="w3-light-grey">
+  </div>
+  <div class="w3-light-grey">
+  </div>
+</div>
